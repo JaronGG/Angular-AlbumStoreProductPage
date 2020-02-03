@@ -6,7 +6,7 @@ import 'rxjs/add/operator/map';
 // })
 export class ProductService {
 
-  _albumUrl: string =  '../assets/album.json';
+  private _albumUrl =  '../assets/album.json';
 
   constructor(private _http: Http) { }
 
